@@ -1,0 +1,27 @@
+/node_modules/
+*.lock
+!yarn.lock
+!composer.lock
+
+cypress.env.json
+/videos
+/screenshots
+
+
+
+###> VScode settings
+.vscode
+###< VScode settings
+
+
+###< JetBrains ###
+.idea
+###> JetBrains ###
+###> storage ###
+/storage/tmp
+!/storage/tmp/.gitkeep
+###< storage ###
+
+###> MacOS system files
+.DS_Store
+###< MacOS system files
